@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #D7CDC7;
+}
+body h1 {
+  margin: 1em;
+  text-align: center;
+  color: #763240;
+}
+
+.wrapper {
+  width: 275px;
+  height: 440px;
+  margin: auto;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  border: 1px solid black;
+  border-radius: 1em;
+  background-color: #565656;
+}
+.wrapper .inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 160px;
+}
+.wrapper .inputs h4{
+  color:white;
+}
+.wrapper .inputs input {
+  height: 2em;
+  width: 215px;
+  border-radius: .5em;
+  margin: 1em;
+  padding: 0 10px;
+  background-color: gray;
+  color: white;
+}
+.wrapper .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  height: 160px;
+}
+.wrapper .buttons h4 {
+  margin: 1em;
+  color: white;
+}
+.wrapper .buttons .operation {
+  border-radius: 5px;
+  width: 100px;
+  padding: 1em;
+  margin: .5em;
+  background-color: #C09F80;
+}
+.wrapper .result {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .result h4 {
+  margin: 1em 1em .5em;
+  color: orange;
+}
+.wrapper .result #answer {
+  height: 30px;
+  font-size: 1.5em;
+  color: orange;
+}

@@ -1,0 +1,77 @@
+/* Color Theme Swatches in Hex */
+.Viajar-1-hex { color: #51608C; }
+.Viajar-2-hex { color: #8697A6; }
+.Viajar-3-hex { color: #BFCDD9; }
+.Viajar-4-hex { color: #BF8756; }
+.Viajar-5-hex { color: #8C4F2B; }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D7CDC7;
+
+}
+
+body h1 {
+    margin: .6em;
+    text-align: center;
+    color: #763240;
+}
+
+.formContact{
+    width: 48%;
+    margin: auto;
+    margin-top: 19px;
+    background-color: #565656;
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 3em 3em 2em; 
+    position: relative;
+}
+
+.formContact .camposForm{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formContact .camposForm label {
+    margin-bottom: 10px;
+    color: white;
+    padding: 0 1em;
+}
+
+.formContact .camposForm input {
+    height: 2em;
+    border-radius: .5em;
+    padding: 0 1em;
+    background-color: #C09f80;
+}
+.formContact .camposForm span {
+    margin: .2em 1em;
+    height: 1em;
+}
+
+.alert::placeholder{
+    color: #763240;
+}
+
+.mensajeAlerta{
+    color: orange;
+    font-size: .9em;
+}
+
+.formContact .contenedorBoton{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.formContact .boton {
+    height: 40px;
+    width: 100px;
+    border-radius: .5em;
+}
